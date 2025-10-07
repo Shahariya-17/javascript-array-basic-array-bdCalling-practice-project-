@@ -44,3 +44,54 @@ const arr2 = ["D", "E"];
 const combined = arr1.concat(arr2);
 console.log(combined);
 
+// Question-10
+const numbers = [10, 20, 30, 40, 50, 60];
+const part = numbers.slice(1,4);
+console.log(part);
+
+// Question-11
+const array = [10, 20, 30, 40];
+delete array[1];
+console.log(array);
+
+
+// Level 3 
+
+// Question-12
+const itemNum = [1, 2, 3, 4, 5];
+itemNum.copyWithin(3, 0, 2);
+console.log(itemNum);
+
+// Question-13
+const nestedArr =  [1, [2, 3], [4, [5]]];
+const flatArr = nestedArr.flat(2);
+console.log(flatArr);
+
+// Question-14
+const spliceArr = [10, 20, 30, 40, 50];
+spliceArr.splice(2, 2, 99, 100);
+console.log(spliceArr);
+
+// Question-15
+const a = [1, 2, 3, 4, 5];
+const b = a.slice(1, 4);
+const c = a.splice(1, 4);
+console.log(a, b, c);
+
+// Question-16
+const fruits2 = ["apple", "banana", "cherry"];
+const newFruits = fruits2.toSpliced(1, 1);
+console.log("fruits =", fruits2);
+console.log("newFruits =", newFruits);
+
+// Question-17
+const arrRev = ["JS", "love", "I"];
+const reversed = [];
+while (arrRev.length) {
+  reversed.push(arrRev.pop());
+}
+console.log(reversed);
+
+// Question-18
+const nestedArray = ["a", ["c", "d"]];
+console.log(nestedArray[1][0]);
