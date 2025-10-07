@@ -26,7 +26,21 @@ items2.push('marker');
 console.log(items2);
 
 // Question-7
-const city = ["Dhaka", "Chittagong", "Khulna"];
-city.shift();
-console.log(city);
+const city1 = ["Dhaka", "Chittagong", "Khulna"];
+city1.shift();
+console.log(city1);
+
+// Question-8
+const city2 = ["Chittagong", "Khulna"];
+city2.unshift("Rajshahi");
+console.log(city2);
+
+
+//  Level 2 — মাঝারি মানের প্রশ্ন
+
+// Question-9
+const arr1 = ["A", "B", "C"];
+const arr2 = ["D", "E"];
+const combined = arr1.concat(arr2);
+console.log(combined);
 
